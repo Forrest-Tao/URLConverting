@@ -1,0 +1,18 @@
+Name: shortener-api
+Host: 0.0.0.0
+Port: 8899
+
+BaseString: J0rs12wx5TUV8IWjoCp6qtuvbc47O9aBdXeDfghiMQ3klmzAEFGHKLNnPRYSZy
+
+ShortUrlBlackList: ["version", "fuxk", "stupid", "convert", "health", "api", "css", "js"]
+
+ShortDoamin: demo.cn
+
+CacheRedis:
+  - Host: "127.0.0.1:6379"
+
+ShortUrlDb:
+  DSN: root:571400yst@tcp(127.0.0.1:3306)/shorturl?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+SequenceDb:
+  DSN: root:571400yst@tcp(127.0.0.1:3306)/shorturl?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
